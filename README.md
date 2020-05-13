@@ -6,12 +6,15 @@ Welcome to SASS (Simple Assignemnt of Spots to Surfaces)
 
 
 This script executes a set of subscripts used to assign spots detected by imaris to their closest surface in Drosophila embryos. 
+
 It will also return a midline for an expression domain and the distances of cells from that expression domain. 
 
 This is currently only tested on expression domains running along the AP axis as used in: 
 
- Modulation of promoter occupancy dictates the transcriptional response to graded BMP signalling levels in the Drosophila embryo
- Caroline Hoppe, Jonathan Bowles,  Thomas G. Minchington, Catherine Sutcliffe,  Priyanka Upadhyai,  Magnus Rattray,  Hilary L. Ashe
+Modulation of promoter occupancy dictates the transcriptional response to graded BMP signalling levels in the Drosophila embryo.
+
+Caroline Hoppe, Jonathan Bowles,  Thomas G. Minchington, Catherine Sutcliffe,  Priyanka Upadhyai,  Magnus Rattray,  Hilary L. Ashe
+
 doi: https://doi.org/10.1101/837179
 
 Use of this script and all components requires aknowldgement to the author Thomas G Minchington and citation of the above paper.
