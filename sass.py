@@ -1,10 +1,21 @@
 """
 
-This is the master controller for the [insert name of programe here]
+This is the master controller for SASS (Spot Assignment)
 This script is responsible for handelling all other modules each will be documented seperately
 Use of this script and all components requires aknowldgement to the author Thomas G Minchington.
 
-For any support please contact thomas.minchington@postgrad.manchester.ac.uk
+For any support please contact thomas.minchington@manchester.ac.uk
+
+usage: sass.py [-h] [--i I] fly_folder
+
+positional arguments:
+  fly_folder  Folder containing folders of flies, each sub folder should
+              contain background folder, spot folder and a cell/nucleus folder
+              
+
+optional arguments:
+  -h, --help  show this help message and exit
+  --i I       time interval in seconds between points. Default: 20 seconds
 
 """
 
@@ -18,7 +29,7 @@ if __name__ == "__main__":
     print("Spot Assignement to Surface Script\n_________________________________________\n\n")
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('fly_folder', help='Folder containing folders of flies, each sub folder should contain background folder, spot folder and a cell folder (nucleus Carol is a moron)')
+    parser.add_argument('fly_folder', help='Folder containing folders of flies, each sub folder should contain background folder, spot folder and a cell/nucleous folder')
     parser.add_argument("--i", default=20, help="time interval in seconds between points. Default: 20 seconds",
                         type=float)
     args = parser.parse_args()
