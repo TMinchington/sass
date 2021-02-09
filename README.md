@@ -9,6 +9,8 @@ This script executes a set of subscripts used to assign spots detected by imaris
 
 It will also return a midline for an expression domain and the distances of cells from that expression domain. 
 
+If you are using fixed sample and would like to look at expression relative to the AP axis of the embryo try the stand alone script spotME_EmbryoMid
+
 This is currently only tested on expression domains running along the AP axis as used in: 
 
 Modulation of promoter occupancy dictates the transcriptional response to graded BMP signalling levels in the Drosophila embryo.
@@ -60,3 +62,28 @@ positional arguments:
 optional arguments:
   -h, --help  show this help message and exit
   --i I       time interval in seconds between points. Default: 20 seconds
+
+
+---------------------------------------------------------
+
+spotME_EmbryoMid.py
+
+---------------------------------------------------------
+
+spotME_EmbryoMid is a modified version of the spotME_v2.py used inthe Hoppe et al. 2020. Instead of finding the midline of the expression domain it instead computes the midline of the embryo. It will then calculate the distance of nuclei from the embroy midline and alonng the AP axis.
+
+All data is returned in long format for easy use in R or python.
+
+This is only currently tested on embryos which are partially in frame as in the Vintel et al. 2021 paper.
+
+usage: spotME_EmbryoMid.py folder_path [-h] [-b] [-ti] [-sf]
+
+positional arguments:
+  folder_path  folder path where the spots and nuc files should be
+
+optional arguments:
+  -h, --help   show this help message and exit
+  -b B         bin_size in cell widths
+  -ti TI       time interval
+  -sf SF       spot distance filter
+
