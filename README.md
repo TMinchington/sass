@@ -17,7 +17,7 @@ Modulation of promoter occupancy dictates the transcriptional response to graded
 
 Caroline Hoppe, Jonathan Bowles,  Thomas G. Minchington, Catherine Sutcliffe,  Priyanka Upadhyai,  Magnus Rattray,  Hilary L. Ashe
 
-Now published in Developmental Cell doi: 10.1016/j.devcel.2020.07.007
+Now published in Developmental Cell doi: 1https://doi.org/10.1016/j.devcel.2020.07.007
 
 Use of this script and all components requires aknowldgement to the author Thomas G Minchington and citation of the above paper.
 
